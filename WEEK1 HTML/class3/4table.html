@@ -1,0 +1,71 @@
+<!-- something more on colgroup like background col0or and visibility of a col -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+<!-- 1.Problem pehli 3 colums ka color green kar do -->
+        <!-- <col span="3" style="background-color: green;"> -->
+       
+<!-- 2.Problem pehli 2 3 4 colums ka color yellow kar do -->
+        <!-- <col span="1"> -->
+        <!-- <col span="3" style="background-color: yellow;"> -->
+       
+<!-- 3 problem 2 aur 4th column ko red kar do -->
+        <col span="1">
+        <col span="1" style="background-color: red;">
+        <col span="1" style="visibility:collapse;">
+        <col span="1" style="background-color: red;">
+        <col span="1" style="visibility: collapse;">
+
+        </colgroup>
+
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td>col5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+</html>

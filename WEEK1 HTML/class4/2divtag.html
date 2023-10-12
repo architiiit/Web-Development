@@ -1,0 +1,47 @@
+<!-- Div tags -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /*used for modifying property of a particular class of div */
+      /* use . for class */
+      .divclass{
+        background-color: aqua;
+      }
+       /* used for modifying property of a particular id of div*/
+       /* use # for div */
+      #seconddiv{
+        background-color: blue;
+      }
+      /* applicable for all div */
+      /* default display is set to block */
+      div{
+        background-color: brown;
+      }
+      /* applicable for all span */
+      /* default display is set to inline */
+      span{
+        background-color: blueviolet;
+        font-size:larger;
+        display: block;
+      }
+    </style>
+</head>
+<body>
+    <div class="divclass">This is inside div</div>
+
+    <div id="seconddiv">This is inside div</div>
+
+    <!-- span tag--- same as div but it is an inline element -->
+    <!-- different span comes in same line -->
+    <!-- default display is set to inline -->
+    <span>First span</span>
+    <span>Second span</span>
+</body>
+</html>
+
+<!-- question:can we set display of div tag to inline would it become span
+question:can we set display of span tag to block would it become div  -->
