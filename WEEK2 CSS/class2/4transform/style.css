@@ -1,0 +1,21 @@
+.box{
+    background-color: aqua;
+
+    /* horizontal and vertical positioning  */
+
+    /* transform:translate(100px,250px);  */
+    /* transform:translateX(100px);
+    transform:translateY(250px);
+
+    /* transform:rotate(-45deg); */
+
+    /* margin:150px; */
+    /* horizontal and vertical scaling */
+    /* transform:scale(1.5,1.5); */
+    /* transform:scaleX(2);
+    transform:scaleY(2); */
+
+    /* transform:skew(-45deg); */
+
+
+}

@@ -1,0 +1,30 @@
+/* p{
+    position:static;
+} */
+
+div{
+    display:inline-block;
+    width:150px;
+    height:150px;
+    background-color: aqua;
+    border:1px solid black;
+}
+#box3{
+   /* position:relative; */
+    position:absolute;/*positioned with respect to nearest non positioned ancestor else with respect to body tag */
+    top:100px;
+    left:50px;
+}
+/* #box1{
+    position:fixed;
+} */
+#box4{
+    position:sticky;/*toggles between relative and fixed */
+    top:0px;
+
+}
+.wrapper{
+    height:2000px;
+    width:100vw;;
+    background-color:yellow;
+}

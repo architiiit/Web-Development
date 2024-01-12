@@ -1,0 +1,16 @@
+h1{
+    /* horizontal-length,vertical-length,blur,color */
+    text-shadow:3px 3px 3px red;
+    text-shadow:3px 3px 3px red,6px 6px 6px green;
+    
+}
+.box{
+    background-color: aqua;
+    width:200px;
+    height:200px;
+    box-shadow:-10px -10px 15px green,15px 15px 15px brown;
+    box-shadow:-1px -1px black,1px 1px black;
+    box-shadow: 10px 5px 5px 10px black;
+    color:red;
+    
+}

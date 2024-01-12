@@ -1,0 +1,48 @@
+.box{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    /* Linear gradient */
+    background-image: linear-gradient(Red,Blue);
+    background-image: linear-gradient(to right, Red,Blue);
+    background-image: linear-gradient(to left, Red,Blue);
+    background-image: linear-gradient(to bottom, Red,Blue);
+    background-image: linear-gradient(to top, Red,Blue);
+    background-image: linear-gradient(to bottom right, Red,Blue);
+    background-image: linear-gradient(to bottom right, Red,Blue,green);
+    background-image: linear-gradient(98deg,Red,Blue);
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0),rgba(0,0,255,1));
+}
+    /* Radial gradient */
+.mydiv{
+        border:1px solid black; 
+        margin:10px;
+        height:400px;
+        width:200px;
+        background-image: radial-gradient(Red,Blue);
+        background-image: radial-gradient(Red,Blue,orange); 
+        background-image: radial-gradient(circle,Red,Blue,orange);
+        background-image: radial-gradient(yellow 5%,orange 10%,red 50%);
+}
+/* Conic gradient */
+.mydiv2{
+    border:1px solid black; 
+    margin:10px;
+    height:400px;
+    width:200px;
+    background-image: conic-gradient(Red,Blue);
+    background-image: conic-gradient(Red,Blue,orange); 
+    background-image: conic-gradient(yellow 5%,orange 10%,red 50%);
+    background-image: conic-gradient(circle,Red,Blue,orange);
+}
+.india{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    background-image: linear-gradient(orange,white,green);
+}
+
+
+
+
+    
