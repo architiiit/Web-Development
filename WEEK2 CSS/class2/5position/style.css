@@ -12,7 +12,7 @@ div{
 #box3{
    /* position:relative; */
     position:absolute;/*positioned with respect to nearest non positioned ancestor else with respect to body tag */
-    top:100px;
+    top:100px; 
     left:50px;
 }
 /* #box1{
