@@ -1,0 +1,47 @@
+.container{
+    height: 500px;
+    width:500px;
+    background-color: green;
+    border:3px solid red;
+    display: flex;
+}
+
+.box{
+    height:150px;
+    width:150px;
+    margin:20px;
+    border:2px solid orange;
+    background-color:aqua;
+
+    
+    /* transition:2s; */
+    /* transition-property:all; */
+    /* transition-property: background-color; */
+    /* transition-delay: 5s; */
+    /* property,transition-time,type,initial-delay */
+    /* transition: background-color 0.3s ease 3s; */
+    /* transition: transform 1s ease 3s; */
+    /* transition: all 200ms ease; */
+
+    /* ease-in se starting me slow hota hai baad me fast hota hai */
+    /* ease-out se starting me fast hota hai baad me fast slow hai */
+    /* transition:transform 3s ease-in; */
+
+    /* our own custom function */
+
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(1,-0.54, 0, 1.63);
+    transition-delay: 1s;
+
+    /* above 4 properties in singe line */
+    /* transition:transform 3s cubic-bezier(1,-0.54, 0, 1.63) 1s; */
+
+}
+
+.box:hover{
+    /* background-color: brown;
+    transform:rotate(45deg); */
+
+    transform:translate(500px);
+}

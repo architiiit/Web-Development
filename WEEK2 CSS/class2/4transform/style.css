@@ -12,8 +12,8 @@
     /* margin:150px; */
     /* horizontal and vertical scaling */
     /* transform:scale(1.5,1.5); */
-    /* transform:scaleX(2);
-    transform:scaleY(2); */
+    /* transform:scaleX(1); */
+    transform:scaleY(1);
 
     /* transform:skew(-45deg); */
 

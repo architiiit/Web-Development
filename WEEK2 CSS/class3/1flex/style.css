@@ -5,7 +5,7 @@
     display: flex;
     /* flex-direction sets the direction of main axis which is either row or column */
     
-    /* flex-direction: row; */
+    flex-direction: row;
     /* flex-direction:column;  */
     /* flex-direction: row-reverse;
     flex-direction: column-reverse; */
@@ -26,13 +26,13 @@
  /* all the content will align to the start of cross axis or vertical axis*/
     /* align-items: flex-start; */
     /* align-items: flex-end; */
-    /* align-items: center; */
+    align-items: center;
     /* align-items: stretch; */
 
     /* matches the baseline of all content */
     /* align-items: baseline; */
 
-    align-items: center;
+    /* align-items: center; */
 
     /* only puts gap between blocks */
     /* row-gap:10px;
@@ -40,16 +40,17 @@
 
     /* gap:10px; */
 
-    /* align-content: flex-start;
-    align-content: flex-end;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
     align-content: center;
-    align-content: space-between;
+    /* align-content: space-between;
     align-content: space-around; */
-    align-content: space-evenly;
+    /* align-content: space-evenly; */
 
 }
 .box{
     border:1px solid brown;
     background-color: aqua;
-    width:300px;
+    /* width:300px; */
+   
 }

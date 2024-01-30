@@ -1,0 +1,27 @@
+/* *{
+    --dark-red:#981a2c;
+    
+} */
+
+/* Global declaration of variable color */
+/* applicable in every class and ids */
+:root{
+    --dark-red:#981a2c;
+}
+
+.container{
+    border:1px solid brown;
+    background-color: red;
+    height:300px;
+    width:300px;
+    background-color: var(--dark-red);
+}
+
+.box{
+    border:2px solid green;
+    background-color: aqua;
+
+    /*local variable color definition-its scope is within this braces */
+    /* --dark-red:#981a2c; */
+    color: var(--dark-red);
+}
