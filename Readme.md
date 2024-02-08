@@ -1,1 +1,1 @@
-#These codes are from Love Babbar's Web Development course.
+#Love Babbar's Web Development Dot Batch course.
