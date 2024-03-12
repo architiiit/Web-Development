@@ -12,8 +12,8 @@ console.log('Lets start')
 // };
 
 // let rectangle1={
-// length:1,
-//     breadth:2,
+//      length:1,
+//      breadth:2,
 
 //     draw: function() {
 //         console.log('drawing rectangle');
@@ -153,7 +153,7 @@ console.log('Lets start')
 // //for-of loop
 // for(let key of Object.entries(rectangle))
 // {
-//     console.log(key);
+//     console.log(key); 
 // }
 
 // //kisi object ke andar koi property exist krti hai ya nhi ye check kaise hofa
@@ -202,14 +202,14 @@ console.log('Lets start')
 // src.a++;
 // console.log(dest);
 
-//object clone #3
-let src={
-    a:10,
-    b:20,
-    c:30
-};
-let dest={...src};
-console.log(dest);
-src.a++;
-console.log(dest);
+// //object clone #3
+// let src={
+//     a:10,
+//     b:20,
+//     c:30
+// };
+// let dest={...src};
+// console.log(dest);
+// src.a++;
+// console.log(dest);
 
