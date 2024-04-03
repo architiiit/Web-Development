@@ -1,6 +1,6 @@
 console.log('Hello Jee');
 
-// let lastName = 'Babbar';
+let lastName = 'Babbar';
 // //we can use different methods to above string 
 // let firstName = new String('love');
 
@@ -72,7 +72,7 @@ console.log('Hello Jee');
 //     console.log('Absent');
 // }
 
-// numbers.includes(numbers.includes(7));
+// console.log(numbers.includes(7));
 
 // console.log(numbers.indexOf(4,2));//second argument bata raha hai ki search kon se index se start karna hai
 
@@ -226,18 +226,18 @@ console.log('Hello Jee');
 
 //TODO:sort objects using predicate function
 
-const items = [
-    { name: "Edward", value: 21 },
-    { name: "Sharpe", value: 37 },
-    { name: "And", value: 45 },
-    { name: "The", value: -12 },
-    { name: "Magnetic", value: 13 },
-    { name: "Zeros", value: 37 },
-  ];
-console.log(items);
-// sort by value
-items.sort((a, b) => a.value - b.value);
-console.log(items);
+// const items = [
+//     { name: "Edward", value: 21 },
+//     { name: "Sharpe", value: 37 },
+//     { name: "And", value: 45 },
+//     { name: "The", value: -12 },
+//     { name: "Magnetic", value: 13 },
+//     { name: "Zeros", value: 37 },
+//   ];
+// console.log(items);
+// // sort by value
+// items.sort((a, b) => a.value - b.value);
+// console.log(items);
 
 
 

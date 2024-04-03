@@ -83,31 +83,33 @@ console.log('kya haal chal');
 
 
 //Getter Setter
-// getter->access properties
-// setter->change or mutate properties
+//getter->access properties
+//setter->change or mutate properties
 
 
-//read only function
+let person={
+    fName:'Love',
+    lName:'babbar', 
+    get fullName(){
+        return `${person.fName} ${person.lName}`;
+    },
+    set fullName(value){
+        if(typeof value!== String){
+            throw new Error("You have not sent a string");
+        }
+        let parts=value.split(' ');
+        this.fName=parts[0];
+        this.lName=parts[1];
+    },
+};
+
+
+// //read only function
 // function fullName(){
 //     return `${person.fName} ${person.lName}`;
 // }
 // console.log(fullName());
 
-// let person={
-//     fName:'Love',
-//     lName:'babbar', 
-//     get fullName(){
-//         return `${person.fName} ${person.lName}`;
-//     },
-//     set fullName(value){
-//         if(typeof value!== String){
-//             throw new Error("You have not sent a string");
-//         }
-//         let parts=value.split(' ');
-//         this.fName=parts[0];
-//         this.lName=parts[1];
-//     },
-// };
 
 // console.log(person);
 
@@ -117,13 +119,13 @@ console.log('kya haal chal');
 
 
 //Try and catch Error Handling
-//Agar code mechances hai ki error aa sakta hai usko try block me daalenge
+//Agar code me chances hai ki error aa sakta hai usko try block me daalenge
 // try{
 //     // person.fullName='Rahul Kumar';//koi error nhi hai
 //     person.fullName=true;//error aane ka chance hai->ye number me input nahi lega
 // }
 // catch(e){
-//     // alert('You have a sent a number in fullName');
+//     alert('You have a sent a number in fullName');
 //     alert(e);
 // }
 
@@ -194,8 +196,8 @@ let arr=[1,2,3,4];
 // console.log(total);
 
 
-let totalSum=arr.reduce((accumulator,currentValue)=>accumulator+currentValue,0);//agar last argument 0 nhi bhejte to accumulator first value se initialise hota aur current value 2nd value se
-console.log('Printing Sum Value');
-console.log(totalSum);
+// let totalSum=arr.reduce((accumulator,currentValue)=>accumulator+currentValue,0);//agar last argument 0 nhi bhejte to accumulator first value se initialise hota aur current value 2nd value se
+// console.log('Printing Sum Value');
+// console.log(totalSum);
 
 

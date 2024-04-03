@@ -54,9 +54,9 @@ console.log('Lets start')
 
 
 
-// //Camelcase ->example: numberOfStudents
-// //Constructor Function ->Pascal Notation->example:NumberOfStudent
-// //constructor function ->props/methods->define/initialise
+//Camelcase ->example: numberOfStudents
+//Constructor Function ->Pascal Notation->example:NumberOfStudent
+//constructor function ->props/methods->define/initialise
 // function Rectangle(len,bre){
 //     this.length=len;
 //     this.breadth=bre;
