@@ -1,7 +1,7 @@
 console.log('Hello Jee');
 
-let lastName = 'Babbar';
-// //we can use different methods to above string 
+// let lastName = 'Babbar';
+// // //we can use different methods to above string 
 // let firstName = new String('love');
 
 // let message=
@@ -32,6 +32,7 @@ let lastName = 'Babbar';
 
 // let date3=new Date(1998,5,20,7);//year,month,date,hour->month is 0 indexed
 // console.log(date3);
+
 // //getters and setters 
 // date3.setFullYear(1947);
 // console.log(date3);
@@ -52,7 +53,7 @@ let lastName = 'Babbar';
 // console.log(numbers);
 
 // //middle
-// numbers.splice(2,0,'a','b','c','d');//2nd index pe 0 elements remove krna hai aur a,b,c,d inser krna hai
+// numbers.splice(2,0,'a','b','c','d');//2nd index pe 0 elements remove krna hai aur a,b,c,d insert krna hai
 // console.log(numbers);
 
 
@@ -103,6 +104,7 @@ let lastName = 'Babbar';
 // });
 
 // console.log(course);
+
 //arrow function can be used to make above function more readable
 //another way of writing above function
 // let course=courses.find(course=> course.naam ==='Love');//agar single variable hai to bracket,return aur curly braces hata skte hain aur ek arrow laga denge
@@ -126,16 +128,19 @@ let lastName = 'Babbar';
 // //Emptying an array
 // let numbers=[1,2,3,4,5];
 // let numbers2=numbers;
-// //Method1->not good practice because numbers2 doesn't gets empty
-// numbers=[];
 
+//Method1->not good practice because numbers2 doesn't gets empty
+// numbers=[];
 // console.log(numbers);
 // console.log(numbers2);
 
-// //Method2
-// // numbers.length=0;//ab dono khali honge 
+//Method2
+// numbers.length=0;//ab dono khali honge 
+// console.log(numbers);
+// console.log(numbers2);
 
-// //Method3
+
+//Method3
 // numbers.splice(0,numbers.length);
 
 // console.log(numbers);
@@ -226,7 +231,7 @@ let lastName = 'Babbar';
 
 //TODO:sort objects using predicate function
 
-// const items = [
+// let items = [
 //     { name: "Edward", value: 21 },
 //     { name: "Sharpe", value: 37 },
 //     { name: "And", value: 45 },
@@ -255,8 +260,6 @@ let lastName = 'Babbar';
 // console.log(filtered);
 
 
-
-
 // //Mapping arrays->maps each element of array to something else
 // let numbers=[7,8,9,10];
 // console.log(numbers);
@@ -265,11 +268,11 @@ let lastName = 'Babbar';
 //     return 'student_no '+value;
 // });
 
-// // let items=numbers.map(value=>'student_no '+value);
+// let items=numbers.map(value=>'student_no '+value);
 
 // console.log(items);
 
-
+ 
 //Mapping with objects
 // let numbers=[1,2,-6,-9];
 // let filtered=numbers.filter(value=>value>=0);//positive values

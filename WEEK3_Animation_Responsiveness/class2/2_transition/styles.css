@@ -28,7 +28,7 @@
     /* transition:transform 3s ease-in; */
 
     /* our own custom function */
-
+ 
     transition-property: transform;
     transition-duration: 3s;
     transition-timing-function: cubic-bezier(1,-0.54, 0, 1.63);

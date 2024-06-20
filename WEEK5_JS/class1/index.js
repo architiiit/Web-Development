@@ -49,7 +49,7 @@
 // console.log(3===3);
 // console.log(3!==3);
 // console.log(1=='1');//only data should be same->loose equality
-// console.log(1==='1');//data and value both should be same->starict equality
+// console.log(1==='1');//data and value both should be same->strict equality
 
 //ternary operator
 // let age=18;

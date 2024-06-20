@@ -1,4 +1,4 @@
-console.log('kya haal chal');
+// console.log('kya haal chal');
 
 
 
@@ -19,12 +19,14 @@ console.log('kya haal chal');
 //     console.log('walking')
 // }
 // // walk();//cant use to call
+
 // // stand();
 // let jump=stand;
 // jump();
 
 // //Anonymous function assignment->no name is given to function
 // let stand2 = function (){
+
 //     console.log('walkings')
 // }
 // stand2();
@@ -47,22 +49,23 @@ console.log('kya haal chal');
 //     // return a+b;
 // }
 
-// // // console.log(sum(1,2));
-// // // console.log(sum(1));//output->NaN
-// // // console.log(sum());//Output->NaN
-// // // console.log(sum(1,2,3,4,5));//baaki saare waste ho jaayenge
+// console.log(sum(1,2));
+// console.log(sum(1));//output->NaN
+// console.log(sum());//Output->NaN
+// console.log(sum(1,2,3,4,5));//baaki saare waste ho jaayenge
 
 // let ans=sum(1,2,3,4,5,6);//kitne bhi parameters pass kr skte hain
 // console.log(ans);
-// // let ans2=sum(1,2,3,4,5,6,7,8);
-
+// let ans2=sum(1,2,3,4,5,6,7,8);
+// console.log(ans2);
 
 
 //Rest operator->...
 // ... ->spread operator->concatenate->array
 //another use of ...
+
 //Rest parametre
-// function sum(num,value,...args)//args ke baad koi parametre nahi jhona chahiye
+// function sum(num,value,...args)//args ke baad koi parametre nahi hona chahiye
 // {
 //     console.log(args);
 // }
@@ -94,13 +97,14 @@ let person={
         return `${person.fName} ${person.lName}`;
     },
     set fullName(value){
+        console.log(value);
         if(typeof value!== String){
             throw new Error("You have not sent a string");
         }
         let parts=value.split(' ');
         this.fName=parts[0];
         this.lName=parts[1];
-    },
+    }
 };
 
 
@@ -111,7 +115,7 @@ let person={
 // console.log(fullName());
 
 
-// console.log(person);
+// console.log(person);                
 
 // console.log(person.fullName);
 
@@ -121,15 +125,15 @@ let person={
 //Try and catch Error Handling
 //Agar code me chances hai ki error aa sakta hai usko try block me daalenge
 // try{
-//     // person.fullName='Rahul Kumar';//koi error nhi hai
-//     person.fullName=true;//error aane ka chance hai->ye number me input nahi lega
+//     person.fullName='Rahul Kumar';//koi error nhi hai
+//     // person.fullName=true;//error aane ka chance hai->ye number me input nahi lega
 // }
 // catch(e){
-//     alert('You have a sent a number in fullName');
+//     alert('You have sent a number in fullName');
 //     alert(e);
 // }
 
-// // console.log(person.fullName);
+// console.log(person.fullName);
 
 
 //SCOPE
@@ -164,8 +168,8 @@ let person={
 // console.log(i);//error aayega
 
 // if(true){
-//     // let a=5;
-//     var a=5;
+//     let a=5;
+//     // var a=5;
 
 // }
 // console.log(a);
@@ -188,7 +192,7 @@ let person={
 let arr=[1,2,3,4];
 // let total=0;
 
-// for(let value of arr)
+// for(let value of arr) 
 // {
 //     total=total+value;
     

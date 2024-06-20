@@ -1,4 +1,4 @@
-// //adding 100 paras
+// // //adding 100 paras
 // const t1=performance.now();
 // for( let i=1;i<=100;i++)
 // {
@@ -12,7 +12,7 @@
 
 
 
-// //optimising a bit
+// // //optimising a bit 
 // const t3=performance.now();
 // let myDiv=document.createElement('div');
 
@@ -47,7 +47,7 @@
 
 // function addPara(){
 //     let para=document.createElement('p');
-//     para.textContent='Js is single';
+//     para.textContent='Js is single'; 
 //     document.body.appendChild(para);
 // }
 

@@ -20,7 +20,7 @@ console.log('Lets start')
 //     }
 // };
 
-// let rectangle2={
+// let rectangle2={ 
 //     length:1,
 //     breadth:2,
 
@@ -45,7 +45,7 @@ console.log('Lets start')
 //     };
 // }
 
-// //now object creation will be equal to the object inside factory function
+//now object creation will be equal to the object inside factory function
 // let rectangleObj1=createRectangle(4,5);//output of factory function will be stored in the variable
 // let rectangle1=createRectangle(7,8);
 // let rectangle2=createRectangle(4,9);
@@ -54,9 +54,9 @@ console.log('Lets start')
 
 
 
-//Camelcase ->example: numberOfStudents
-//Constructor Function ->Pascal Notation->example:NumberOfStudent
-//constructor function ->props/methods->define/initialise
+// // Camelcase ->example: numberOfStudents
+// // Constructor Function ->Pascal Notation->example:NumberOfStudent
+// // constructor function ->props/methods->define/initialise
 // function Rectangle(len,bre){
 //     this.length=len;
 //     this.breadth=bre;
@@ -65,6 +65,7 @@ console.log('Lets start')
 //         console.log('drawing');
 //     }
 // }
+
 // Rectangle.length;//since a function is also an object so we can access some features using dot operator
 
 // //object creation using constructor
@@ -139,11 +140,11 @@ console.log('Lets start')
 
 // //LOOPS
 
-// let rectangle = {
-//     length:2,
-//     breadth:4
-// };
-// // //for-in loop
+let rectangle = {
+    length:2,
+    breadth:4
+};
+// //for-in loop
 // for(let key in rectangle)
 // {   //keys are reflected through key variable 
 //     //values are reflected through rectangle[key]
@@ -202,7 +203,7 @@ console.log('Lets start')
 // src.a++;
 // console.log(dest);
 
-// //object clone #3
+//object clone #3
 // let src={
 //     a:10,
 //     b:20,
@@ -211,5 +212,6 @@ console.log('Lets start')
 // let dest={...src};
 // console.log(dest);
 // src.a++;
+// console.log(src);
 // console.log(dest);
 
