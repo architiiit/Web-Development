@@ -1,0 +1,6 @@
+{
+    "github.copilot.preferredAccount": "architiiit",
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.renameSuggestions.triggerAutomatically": true,
+    "github.copilot.editor.enableAutoCompletions": true
+}
